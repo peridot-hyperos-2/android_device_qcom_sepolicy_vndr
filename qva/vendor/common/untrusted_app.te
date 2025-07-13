@@ -27,6 +27,3 @@
 
 hal_client_domain(untrusted_app, vendor_hal_qspmhal)
 
-#allow qvrd fifo_file access
-allow untrusted_app_all vendor_qvrd_vndr:fifo_file { read write };
-

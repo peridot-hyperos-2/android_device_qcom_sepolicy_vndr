@@ -153,10 +153,6 @@ neverallow {
   - vendor_qms
   - vendor_ims_dcservice
   - vendor_cacertservice_app
-  - vendor_hal_cloudagent_qti
-  - vendor_hal_datamanager_qti
-  - vendor_hal_provisioningmanager_qti
-  - vendor_hal_featuremanager_qti
   userdebug_or_eng(` -vendor_wifimyftmsvc')
 } hwservicemanager:binder { call transfer };
 ')
